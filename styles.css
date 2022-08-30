@@ -1,1 +1,83 @@
 /* Copy and paste your CSS from CodePen into here */
+body {
+    color: #262626;
+    font-family:Montserrat;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 10;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: -5;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 40px;
+      line-height: 1.5;
+    }
+  }
+  #main {
+    background: rgb(230, 230, 230);
+    margin: 30px 8px;
+    padding: 15px;
+    
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin: 100px 0;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 15px;
+    }
+  }
+  
+  #headline {
+    margin: 55px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.7;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  #final {
+    margin: 16px 0;
+  }
